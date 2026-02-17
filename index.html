@@ -1,52 +1,153 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Make More Offers Challenge</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f6f9;
-            padding: 40px;
-        }
-        h1 {
-            color: #1a73e8;
-        }
-        .box {
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            max-width: 500px;
-            margin: auto;
-            box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
-        }
-        .btn {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 15px 25px;
-            background-color: #1a73e8;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            font-size: 18px;
-        }
-        .btn:hover {
-            background-color: #0f5bd3;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Make More Offers Challenge</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+    color: #333;
+  }
+
+  .section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .headline-section {
+    background: linear-gradient(135deg, #e0f0ff, #ffffff);
+  }
+
+  .headline {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+  }
+
+  .subheadline {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+
+  .cta-button {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+
+  .bullets-section {
+    background-color: #e6f2ff;
+  }
+
+  .bullet-list {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .bullet-list li {
+    margin: 20px 0;
+    font-size: 18px;
+    position: relative;
+    padding-left: 35px;
+  }
+
+  .bullet-list li::before {
+    content: "✅";
+    position: absolute;
+    left: 0;
+    font-size: 22px;
+    color: #007BFF;
+  }
+
+  .partner-section {
+    background-color: #cce0ff;
+    padding: 50px 20px;
+    border-radius: 8px;
+    max-width: 700px;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  .credibility-section {
+    background-color: #d9edf7;
+    padding: 40px 20px;
+    font-style: italic;
+    color: #1a1a1a;
+    max-width: 700px;
+    margin: 0 auto 60px auto;
+    border-radius: 8px;
+  }
+
+  .form-section iframe {
+    width: 100%;
+    max-width: 640px;
+    height: 600px;
+    border: 0;
+    margin: 0 auto;
+    display: block;
+  }
+
+</style>
 </head>
 <body>
 
-<div class="box">
-    <h1>Make More Offers Challenge</h1>
-    <p>Learn practical sales, communication, and buisness lessons.</p>
-    <p>This is an educational program designed to help indviduals improve their ability to present offers, communicate value and develop incoming producing skills..</p>
+  <!-- Headline Section -->
+  <section class="section headline-section">
+    <h1 class="headline">Struggling With Low Sales, Marketing Challenges, or Growing Your Business?</h1>
+    <p class="subheadline">Join the Make More Offers Challenge and learn how to <strong>sell effectively, fix your marketing, and grow your business</strong>.</p>
+    <a href="https://www.makemoreofferschallenge.com/mmoc?affiliate_id=4316420" class="cta-button">Join the Challenge Now</a>
+  </section>
 
-    <a class="btn" href="https://www.makemoreofferschallenge.com/mmoc?affiliate_id=4316420" target="_blank">
-        Join The Challenge Now
-    </a>
-</div>
+  <!-- Benefits / Bullets Section -->
+  <section class="section bullets-section">
+    <ul class="bullet-list">
+      <li>Learn to <strong>close more sales</strong> and increase your revenue</li>
+      <li>Fix your <strong>marketing problems</strong> and attract the right clients</li>
+      <li>Discover strategies to <strong>grow your business fast and sustainably</strong></li>
+      <li>Gain practical skills you can <strong>apply immediately</strong></li>
+    </ul>
+    <br>
+    <a href="https://www.makemoreofferschallenge.com/mmoc?affiliate_id=4316420" class="cta-button">Join the Challenge Now</a>
+  </section>
+
+  <!-- Partner Section -->
+  <section class="section partner-section">
+    <h2>Our Partner</h2>
+    <p>In partnership with <strong>Kafuki Jada</strong>, a respected media personality and business mentor.</p>
+  </section>
+
+  <!-- Embedded Google Form Section -->
+  <section class="section form-section">
+    <h2>Reserve Your Spot</h2>
+    <iframe src="YOUR_GOOGLE_FORM_EMBED_URL" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </section>
+
+  <!-- Credibility / Testimonial Section -->
+  <section class="section credibility-section">
+    "Proven strategies used by successful entrepreneurs — no fluff, only real results."
+  </section>
 
 </body>
 </html>
